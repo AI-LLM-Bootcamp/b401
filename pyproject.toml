@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "b401"
+version = "0.1.0"
+description = ""
+authors = ["julio colomer <info@aiaccelera.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+jupyterlab = "^4.2.4"
+langchain = "^0.2.10"
+langchain-openai = "^0.1.17"
+python-dotenv = "^1.0.1"
+langchain-groq = "^0.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
