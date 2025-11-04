@@ -29,7 +29,7 @@ print("\n----------\n")
 
 creativeLlmModel = OpenAI(temperature=0.9)
 
-response = llmModel.invoke(
+response = creativeLlmModel.invoke(
     "Write a short 5 line poem about JFK"
 )
 
