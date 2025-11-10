@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
-openai_api_key = os.environ["OPENAI_API_KEY"]
+openai_api_key = os.environ["OPENAI_API_KEY"] # ensure to set your OpenAI API key in the .env file
 
 from langchain_openai import OpenAI
 
