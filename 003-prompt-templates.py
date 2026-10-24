@@ -8,7 +8,7 @@ openai_api_key = os.environ["OPENAI_API_KEY"]
 # Today we use a current chat model through ChatOpenAI for both parts.
 from langchain_openai import ChatOpenAI
 
-MODEL = "gpt-5.6-luna"  # small, fast and affordable current OpenAI model
+MODEL = "gpt-6-luna"  # small, fast and affordable current OpenAI model
 
 # This version of langchain-openai sends temperature=0.7 by default,
 # but recent OpenAI models only accept the default value (1).
